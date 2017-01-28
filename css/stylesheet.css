@@ -51,8 +51,6 @@ p {
   background-color: #d42222;
 }
 
-/****Title of dish****/
-
 .title {
   
   border: 1px solid black;
@@ -64,9 +62,7 @@ p {
   font-weight: bold;
  }
 
-
-
-/*****Desktop Devices*****/
+/*****Desktop Devices Mode*****/
 
 @media (min-width: 992px) {
   
@@ -78,7 +74,7 @@ float: left;
 }
  
 
-/*****Tablet Devices*****/
+/*****Tablet Devices Mode*****/
 
 @media (min-width: 768px) and  (max-width: 991px) {
 
@@ -100,7 +96,7 @@ div {
 
 }
 
-/*****Mobile Devices*****/
+/*****Mobile Devices mode*****/
 
 @media (max-width: 767px) {
 
