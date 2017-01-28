@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+    }
+
+body {
+  background-color: #c39797;
+}
+/*****H1 style****/
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: cursive;
+  font-weight: bolder;
+}
+
+/*****Div Style****/
+
+div {
+  background-color: #387389;
+  border: 2px solid black;  
+  margin-top: 1%;
+  margin-right: 1%;
+  margin-bottom: 1%;
+  margin-left: 2%;
+  
+}
+
+/*****Paragraph style*****/
+
+p {
+  padding: 10px;
+  text-align: left;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+/****Title Styles****/
+
+#title1 {
+  background-color: #6d6e14;
+}
+
+#title2 {
+  background-color: #ffb400;
+}
+
+#title3 {
+  background-color: #d42222;
+}
+
+/****Title of dish****/
+
+.title {
+  
+  border: 1px solid black;
+  width: auto;
+  float: right;
+  margin: -1px;
+  padding: 4px; 
+  font-family: Helvetica;
+  font-weight: bold;
+ }
+
+
+
+/*****Desktop Devices*****/
+
+@media (min-width: 992px) {
+  
+  div {
+width: 30%;
+float: left;
+}
+ 
+}
+ 
+
+/*****Tablet Devices*****/
+
+@media (min-width: 768px) and  (max-width: 991px) {
+
+div {
+  
+  width: 45%;
+  float: left;
+  margin-left: 3%;
+   }
+
+
+#text3 {
+  width: 94%;
+  float: left;
+  margin-top: 3%;
+  margin-left: 3%;
+  }
+
+
+}
+
+/*****Mobile Devices*****/
+
+@media (max-width: 767px) {
+
+div {
+  width: 96%;
+  float: left;
+  margin-bottom: 3%;
+}
+
+}
